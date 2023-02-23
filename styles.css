@@ -65,7 +65,7 @@ body{
 .summary-section h2{
     text-align: left;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: 20px 0;
     font-size: 18px;
 }
 
@@ -139,8 +139,9 @@ button{
     font-size: 18px;
 }
 
-button::hover, button::active{
-
+button:hover, button:active, button:focus{
+    cursor: pointer;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 
